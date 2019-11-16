@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" >
+<Style>
+
+.btn {
+display: inline-block;
+width: 90px;
+height: 90px;
+background: #f1f1f1;
+margin: 10px;
+border-radius: 30%;
+box-shadow: 0 5px 15px -5px #00000070;
+color: #3498db;
+overflow: hidden;
+position: relative;
+}
+.btn i
+{
+line-height: 90px;
+font_size: 26px;
+}
+.middle
+{
+position: absolute;
+text-align: center;
+width: 100%;
+}
+body {
+font-family : Source Sans Pro;
+background-color: #01F070;
+
+}
+
+
+img {
+margin:1px auto;
+display: block;
+
+}
+header,footer {
+width : 100%;
+height : 80px;
+display:block;
+background-color: #100010;
+
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+marquee {
+font-family: verdana;
+font-size: 60px;
+}
+</style>
+</HEAD>
+
+<BODY  >
+
+<header >
+<marquee style="color:#DDDDDD;" > WELCOME TO CAR PARKING SYSTEM !</marquee>
+</header>
+<br><br>
+<img src = "F:/care_car.jpg"  >
+<form action="server.php" method="POST" target="_blank" >
+  <br>
+<div class="ajaj">
+  <fieldset >
+    <legend>Personal information:</legend>
+ 
+<br><br>
+ First name:<br>
+  <input type="text" name="firstname" required><br>
+  <br><br>
+ 
+
+ Last name:<br>
+  <input type="text" name="lastname">
+  <br><br>
+ 
+
+ Aadhar number: <br>
+<input type="number" name="aadhar">
+<br><br>
+
+ Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+  <br><br>
+
+
+  Car: <br>
+  <select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+  </select>
+  <br><br>
+ 
+Car number:
+<br>
+<input type="number" name="car_no">
+<br><br>
+
+ Email: <br>
+  <input type="email" name="email">
+  <br><br>
+
+
+  Time in :<br>
+  <input type="datetime-local" name="time_in">
+  <br><br>
+ 
+
+ Time out: <br>
+  <input type="datetime-local" name="time_out">
+  <br><br>
+
+
+  Phone: <br>
+  <input type="tel" name="phone">
+  <br><br>
+ 
+  <input type="submit" value="Submit">
+  <input type ="RESET" value="RESET">
+</fieldset>
+</div>
+</form>
+<br><br><br>
+
+<footer >
+  <p style="color:#ffffff;">Posted by: HARI HARA KRISHNA</p>
+  <p style="color:#ffffff;">Contact information: ajaibalu.2001@gmail.com</p>
+
+<div class="middle";>
+<a class="btn" href="https://www.instagram.com/nms10_official/" style="font-size:100px;" >
+<i class="fab fa-instagram"></i>
+</a>
+ 
+<a class="btn" href="https://www.facebook.com/aj.cens" style="font-size:100px;" >
+<i class="fab fa-facebook"></i>
+</a>
+</div>
+
+</footer>
+
+
+</BODY>
+</HTML>
